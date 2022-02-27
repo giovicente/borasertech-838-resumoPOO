@@ -2,6 +2,38 @@
 
 Repo que tem como propósito realizar uma implementação que envolva a aplicação de todos os conceitos e técnicas vistas ao longo do módulo de Introdução à POO da turma 838.
 
+## Exercício
+
+Uma concessionária deseja realizar a automação de seus processos compra e venda de veículos. Esta concessionária realiza a venda de carros e motos, que possuem as seguintes características:
+
+- Fabricante
+- Modelo
+- Ano
+- Tipo de combustão: Gasolina, Álcool ou Flex
+- Preço
+
+Somente os carros possuem as características abaixo:
+- Quantidade de Portas
+- Indicativo de airbag
+
+Somente as motos possuem a quantidade de cilindradas.
+
+A partir destas informações, precisamos de um sistema que:
+- Apresente a lista de carros e motos disponíveis para venda
+- Realize a compra de um novo Carro ou Moto
+- Realize a venda de um novo Carro ou Moto
+
+Também será possível realizar o orçamento de uma manutenção nos veículos, no qual é necessário calcular o valor da visita, que pode variar de acordo com a tabela abaixo:
+
+| Tipo de Veículo | Condição             | Valor |
+|-----------------|----------------------|-------|
+| Moto            | <= 125 cc            | 250.0 |
+| Moto            | > 125 cc <= 250 cc   | 500.0 |
+| Moto            | > 250 cc             | 625.0 |
+| Carro           | Combustão a álcool   | 250.0 |
+| Carro           | Combustão a gasolina | 500.0 |
+| Carro           | Modelo Flex          | 625.0 |
+
 ## Herança vs Classe Abstrata vs Interface
 
 ### Herança
