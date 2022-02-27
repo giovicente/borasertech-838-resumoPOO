@@ -38,7 +38,7 @@ Quando quero que uma classe reaproveite e herde os atributos e comportamentos im
 ```java
 Professor professor = new Professor();
 ```
-- Mas é possível eu realizar à instância abaixo
+- Mas é possível eu realizar a instância abaixo
 ```java
 ProfessorTitular profTitular = new ProfessorTitular();
 ```
