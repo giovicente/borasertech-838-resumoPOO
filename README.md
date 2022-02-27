@@ -34,7 +34,9 @@ Também será possível realizar o orçamento de uma manutenção nos veículos,
 | Carro           | Combustão a gasolina | 500.0 |
 | Carro           | Modelo Flex          | 625.0 |
 
-## Herança vs Classe Abstrata vs Interface
+---
+
+## Resumo POO: Herança vs Classe Abstrata vs Interface
 
 ### Herança
 
