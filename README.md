@@ -10,7 +10,7 @@ Repo que tem como propósito realizar uma implementação que envolva a aplicaç
 
 #### Características da Herança
 
-- É realizada utilizando a palavra reservada extends, de modo que uma classe filha sempre vai estender de sua classe mãe.
+- É realizada utilizando a palavra reservada ``extends```, de modo que uma classe filha sempre vai estender de sua classe mãe.
   * Exemplo: se tivermos uma classe chamada Animal que é mãe de uma classe Mamífero, então a herança é expressa através da sentença abaixo
 ```java
 public class Mamifero extends Animal
@@ -44,7 +44,7 @@ ProfessorTitular profTitular = new ProfessorTitular();
 ```
 - Uma classe abstrata pode possuir também métodos abstratos. Quando isso acontece, a implementação do método deve ser realizada obrigatoriamente na(s) classe(s) filha(s). Para declarar um método abstrato, devemos incluir uma assinatura de método na qual iremos usar a palavra reservada ```abstract``` após a visibilidade do método, conforme:
 ```java
-public abstract double calcularPerimetro();
+public abstract double calculaPerimetro();
 ```
 - Além dos métodos abstratos, é possível incluir nas classes abstratas métodos com um corpo de implementação default, de modo que suas filhas consigam reaproveitá-los. 
 
