@@ -4,7 +4,7 @@ Repo que tem como propósito realizar uma implementação que envolva a aplicaç
 
 ## Exercício
 
-Uma concessionária deseja realizar a automação de seus processos compra e venda de veículos. Esta concessionária realiza a venda de carros e motos, que possuem as seguintes características:
+Uma concessionária deseja realizar a automação de seus processos compra / venda de veículos e realizar orçamentos para manutenção destes veículos. Esta concessionária realiza a venda de carros e motos, que possuem as seguintes características:
 
 - Fabricante
 - Modelo
