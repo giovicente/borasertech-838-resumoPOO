@@ -1,4 +1,4 @@
-# borasertech-838-resumoPOO
+# 👩‍💻 borasertech-838-resumoPOO 👨‍💻
 
 Repo que tem como propósito realizar uma implementação que envolva a aplicação de todos os conceitos e técnicas vistas ao longo do módulo de Introdução à POO da turma 838.
 
