@@ -10,7 +10,7 @@ Repo que tem como propósito realizar uma implementação que envolva a aplicaç
 
 #### Características da Herança
 
-- É realizada utilizando a palavra reservada ``extends```, de modo que uma classe filha sempre vai estender de sua classe mãe.
+- É realizada utilizando a palavra reservada ```extends```, de modo que uma classe filha sempre vai estender de sua classe mãe.
   * Exemplo: se tivermos uma classe chamada Animal que é mãe de uma classe Mamífero, então a herança é expressa através da sentença abaixo
 ```java
 public class Mamifero extends Animal
