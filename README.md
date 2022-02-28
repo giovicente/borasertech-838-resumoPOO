@@ -9,7 +9,7 @@ Uma concessionária deseja realizar a automação de seus processos de compra de
 - Fabricante
 - Modelo
 - Ano
-- Tipo de combustão: Gasolina, Álcool, Flex Elétrico
+- Tipo de combustão: Gasolina, Álcool, Flex ou Elétrico
 - Preço
 
 Somente os carros possuem as características abaixo:
