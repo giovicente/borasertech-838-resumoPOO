@@ -4,7 +4,7 @@ Repo que tem como propósito realizar uma implementação que envolva a aplicaç
 
 ## Exercício
 
-Uma concessionária deseja realizar a automação de seus processos compra / venda de veículos e realizar orçamentos para manutenção destes veículos. Esta concessionária realiza a venda de carros e motos, que possuem as seguintes características:
+Uma concessionária deseja realizar a automação de seus processos de compra de veículos e realizar orçamentos para manutenção destes veículos. Esta concessionária realiza a compra e venda de carros e motos, que possuem as seguintes características:
 
 - Fabricante
 - Modelo
@@ -19,9 +19,8 @@ Somente os carros possuem as características abaixo:
 Somente as motos possuem a quantidade de cilindradas.
 
 A partir destas informações, precisamos de um sistema que:
-- Apresente a lista de carros e motos disponíveis para venda
+- Apresente a lista de carros e motos disponíveis na loja
 - Realize a compra de um novo Carro ou Moto
-- Realize a venda de um novo Carro ou Moto
 
 Também será possível realizar o orçamento de uma manutenção nos veículos, no qual é necessário calcular o valor da visita, que pode variar de acordo com a tabela abaixo:
 
