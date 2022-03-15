@@ -7,11 +7,10 @@ import br.com.letscode.pooresumo.enums.TipoCombustaoEnum;
 import br.com.letscode.pooresumo.exceptions.LimiteCarrosAtingidoException;
 
 import java.math.BigDecimal;
-import java.util.Scanner;
 
 public class POOResumoApplication {
 
-    public static void main(String[] args) throws LimiteCarrosAtingidoException {
+    public static void main(String[] args) {
 
         Carro carro1 = new Carro("Chevrolet", "Onix", 2017,
                 TipoCombustaoEnum.FLEX.getDescricao(), 42000, 5, Boolean.TRUE);
@@ -30,7 +29,7 @@ public class POOResumoApplication {
 
         Moto[] motos = new Moto[]{moto};
 
-        final int LIMITE_CARROS = 5;
+        final int LIMITE_CARROS = 0;
 
         Concessionaria concessionaria = new Concessionaria(carros, motos, LIMITE_CARROS);
 
@@ -42,7 +41,13 @@ public class POOResumoApplication {
 
         System.out.println("===============================================================");
         System.out.println("Lista de carros após a compra");
-        concessionaria.compraCarro(carroCompra);
+
+        try {
+            concessionaria.compraCarro(carroCompra);
+        } catch (LimiteCarrosAtingidoException e) {
+            System.out.println(e.getMessage());
+        }
+
         concessionaria.imprimeCarros();
 
         System.out.println("===============================================================");
