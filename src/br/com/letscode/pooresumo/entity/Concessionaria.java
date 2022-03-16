@@ -53,6 +53,10 @@ public class Concessionaria {
         }
     }
 
+    // visibilidade ("opcional") + indicador estático ou abstrato (opcinal)
+    // + tipo de retorno (obrigatório ainda que seja void) + nome
+    // + parâmetros (obrigatório, ainda que não tenha parâmetros tem que fechar e abrir os parânteses)
+    // + exceção lançada (opcional)
     public String compraCarro(Carro carroCompra) throws LimiteCarrosAtingidoException {
 
         if ((this.getCarros().length + 1) > this.limiteCarros) {

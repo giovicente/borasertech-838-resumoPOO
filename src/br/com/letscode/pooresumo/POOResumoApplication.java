@@ -29,7 +29,7 @@ public class POOResumoApplication {
 
         Moto[] motos = new Moto[]{moto};
 
-        final int LIMITE_CARROS = 0;
+        final int LIMITE_CARROS = 10;
 
         Concessionaria concessionaria = new Concessionaria(carros, motos, LIMITE_CARROS);
 
@@ -42,10 +42,13 @@ public class POOResumoApplication {
         System.out.println("===============================================================");
         System.out.println("Lista de carros após a compra");
 
+
         try {
             concessionaria.compraCarro(carroCompra);
         } catch (LimiteCarrosAtingidoException e) {
             System.out.println(e.getMessage());
+            final int STATUS_ERRO_LIMITE_CARROS_ATINGIDO = 1;
+            System.exit(STATUS_ERRO_LIMITE_CARROS_ATINGIDO);
         }
 
         concessionaria.imprimeCarros();
